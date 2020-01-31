@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros1-bridge
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), pkg-config, python3-catkin-pkg-modules, python3-yaml, ros-turbulent-action-msgs, ros-turbulent-actionlib-msgs, ros-turbulent-ament-cmake, ros-turbulent-ament-index-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-builtin-interfaces, ros-turbulent-demo-nodes-cpp, ros-turbulent-diagnostic-msgs, ros-turbulent-example-interfaces, ros-turbulent-gazebo-msgs, ros-turbulent-geometry-msgs, ros-turbulent-launch, ros-turbulent-launch-testing, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-launch-testing-ros, ros-turbulent-nav-msgs, ros-turbulent-rclcpp, ros-turbulent-rcutils, ros-turbulent-rmw-implementation-cmake, ros-turbulent-ros2run, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-parser, ros-turbulent-sensor-msgs, ros-turbulent-shape-msgs, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-stereo-msgs, ros-turbulent-tf2-msgs, ros-turbulent-trajectory-msgs, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros1-bridge
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pkg-config, python3-yaml, ros-turbulent-action-msgs, ros-turbulent-actionlib-msgs, ros-turbulent-builtin-interfaces, ros-turbulent-diagnostic-msgs, ros-turbulent-example-interfaces, ros-turbulent-gazebo-msgs, ros-turbulent-geometry-msgs, ros-turbulent-nav-msgs, ros-turbulent-rclcpp, ros-turbulent-rcutils, ros-turbulent-sensor-msgs, ros-turbulent-shape-msgs, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-stereo-msgs, ros-turbulent-tf2-msgs, ros-turbulent-trajectory-msgs, ros-turbulent-visualization-msgs, ros-turbulent-ros-workspace
+Description: A simple bridge between ROS 1 and ROS 2
